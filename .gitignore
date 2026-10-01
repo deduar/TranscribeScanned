@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# POC outputs (keep samples/ for input PDFs; ignore generated artifacts)
+samples/*.docx
+samples/*.md
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
